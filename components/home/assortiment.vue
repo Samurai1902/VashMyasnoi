@@ -15,6 +15,14 @@
                 <img src="~/assets/images/govyadina.png" alt="Говядина">
             </div>
             <div class="assortment-icon">
+                <p>Бараннина</p>
+                <img src="~/assets/images/sheep.png" alt="Бараннина">
+            </div>
+            <div class="assortment-icon">
+                <p>Индейка</p>
+                <img src="~/assets/images/turkey.png" alt="Индейка">
+            </div>
+            <div class="assortment-icon">
                 <p>Курица</p>
                 <img src="~/assets/images/chicken.png" alt="Курица">
             </div>
@@ -23,8 +31,8 @@
                 <img src="~/assets/images/cotleta.png" alt="Полуфабрикаты">
             </div>
             <div class="assortment-icon">
-                <p>Заморозка</p>
-                <img src="~/assets/images/cotleta.png" alt="Заморозка">
+                <p>Маринады и приправы</p>
+                <img src="~/assets/images/marinade.png" alt="Маринады">
             </div>
         </div>
     </section>

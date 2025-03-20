@@ -1,7 +1,7 @@
 <template>
     <section class="firstblock">
       <div class="firstblock-content">
-        <img src="~/assets/images/home.png" alt="Фон" class="firstblock-background" />
+        <img src="~/assets/images/myaso-banner.jpg" alt="Фон" class="firstblock-background" />
         <h1>Добро пожаловать в мясной магазин "Ваш мясной"</h1>
         <p>Свежее мясо каждый день!</p>
       </div>
@@ -27,7 +27,7 @@
   height: 800px;
   /* object-fit: cover; */
   z-index: -2;
-  filter: brightness(0.5);
+  filter: brightness(0.7);
 }
 
 .firstblock-content {

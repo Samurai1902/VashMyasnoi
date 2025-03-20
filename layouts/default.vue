@@ -10,7 +10,7 @@
             </li>
           </ul>
         </nav>
-        <!-- <a href="tel:89201425003" class="phone">+7 (920) 142-50-03</a> -->
+        <a href="tel:89201425003" class="phone">+7 (920) 142-50-03</a>
       </div>
     </header>
     <main>
