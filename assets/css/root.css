@@ -1,0 +1,16 @@
+:root {
+/* Цвета */
+    --color-primary: #d32f2f; /* Основной цвет (красный) */
+    --color-secondary: #ffcc00; /* Вторичный цвет (желтый) */
+    --color-background: #f5f5f5; /* Фоновый цвет */
+    --color-text: #333; /* Цвет текста */
+    --color-white: #fff; /* Белый цвет */
+
+/* Размеры */
+    --size-container: 1920px; /* Ширина контейнера */
+    --size-section-padding: 80px; /* Отступы секций */
+    --size-font-large: 40px; /* Большой шрифт */
+    --size-font-medium: 28px; /* Средний шрифт */
+    --size-font-small: 16px; /* Малый шрифт */
+}
+

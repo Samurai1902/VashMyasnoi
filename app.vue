@@ -26,6 +26,6 @@ import {
 const themeOverrides = {};
 </script>
 
-<style src="~/assets/styles/roots.css" />
-<style src="~/assets/styles/fonts.css" />
-<style src="~/assets/styles/main.css" />
+<style src="~/assets/css/root.css" />
+<style src="~/assets/css/fonts.css" />
+<style src="~/assets/css/main.css" />

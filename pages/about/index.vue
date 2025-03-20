@@ -1,7 +1,7 @@
 <template>
-  <div>
-    catalog
-  </div>
+    <div>
+        about
+    </div>
 </template>
 
 <script setup>
