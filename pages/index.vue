@@ -1,18 +1,13 @@
 <template>
   <div id="home" class="container">
-    <FirstSection/>
-    <Assortiment/>
-    <ProductSlier/>
-    <Request/>
+    <HomeFirstSection/>
+    <HomeAssortiment/>
+    <HomeProductSlier/>
+    <HomeRequest/>
   </div>
 </template>
 
 <script setup>
-import Assortiment from '../components/home/assortiment.vue';
-import FirstSection from '../components/home/firstSection.vue';
-import ProductSlier from '../components/home/productSlier.vue';
-import Request from '../components/home/request.vue';
-
 
 </script>
 

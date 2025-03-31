@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@phosphor-icons/vue": "^2.2.1",
+    "@splidejs/vue-splide": "^0.6.12",
     "gsap": "^3.12.7",
     "nuxt": "^3.13.2",
     "nuxtjs-naive-ui": "^1.0.2",
-    "swiper": "^11.2.6",
     "vue": "latest"
   },
   "devDependencies": {

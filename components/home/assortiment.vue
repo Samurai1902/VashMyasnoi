@@ -6,43 +6,39 @@
             Все продукты высшего качества, от проверенных поставщиков.
         </p>
         <div class="assortment-icons">
-            <div class="assortment-icon">
-                <p>Свинина</p>
-                <img src="~/assets/images/pig.png" alt="Свинина">
-            </div>
-            <div class="assortment-icon">
-                <p>Говядина</p>
-                <img src="~/assets/images/govyadina.png" alt="Говядина">
-            </div>
-            <div class="assortment-icon">
-                <p>Бараннина</p>
-                <img src="~/assets/images/sheep.png" alt="Бараннина">
-            </div>
-            <div class="assortment-icon">
-                <p>Индейка</p>
-                <img src="~/assets/images/turkey.png" alt="Индейка">
-            </div>
-            <div class="assortment-icon">
-                <p>Курица</p>
-                <img src="~/assets/images/chicken.png" alt="Курица">
-            </div>
-            <div class="assortment-icon">
-                <p>Полуфабрикаты</p>
-                <img src="~/assets/images/cotleta.png" alt="Полуфабрикаты">
-            </div>
-            <div class="assortment-icon">
-                <p>Маринады и приправы</p>
-                <img src="~/assets/images/marinade.png" alt="Маринады">
+            <div 
+                class="assortment-icon" 
+                v-for="(item, index) in assortmentItems" 
+                :key="index"
+            >
+                <p>{{ item.name }}</p>
+                <img :src="item.image" :alt="item.name">
             </div>
         </div>
     </section>
 </template>
 
 <script setup>
+import pigImg from '~/assets/images/pig.png'
+import govyadinaImg from '~/assets/images/govyadina.png'
+import sheepImg from '~/assets/images/sheep.png'
+import turkeyImg from '~/assets/images/turkey.png'
+import chickenImg from '~/assets/images/chicken.png'
+import cotletaImg from '~/assets/images/cotleta.png'
+import marinadeImg from '~/assets/images/marinade.png'
 
+const assortmentItems = [
+    { name: 'Свинина', image: pigImg },
+    { name: 'Говядина', image: govyadinaImg },
+    { name: 'Бараннина', image: sheepImg },
+    { name: 'Индейка', image: turkeyImg },
+    { name: 'Курица', image: chickenImg },
+    { name: 'Полуфабрикаты', image: cotletaImg },
+    { name: 'Маринады и приправы', image: marinadeImg },
+]
 </script>
 
-<style >
+<style>
     .assortment-icons{
         display: flex;
         flex-direction: row;
@@ -63,7 +59,7 @@
         text-align: center;
         z-index: 1;
         gap: 30px;
-        padding: 60px 20px;
+        padding: 60px 0px;
     }
 
     .assortment h2 {
